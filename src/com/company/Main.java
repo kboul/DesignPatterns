@@ -3,7 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    User user = new User("Mosh",30);
-        user.sayHello();
+        TaxCalculator calculator = getCalculator();
+        var tax = calculator.calculateTax();
+        System.out.println(tax);
+    }
+
+    public static TaxCalculator getCalculator() {
+        return new TaxCalculator2019();
     }
 }
