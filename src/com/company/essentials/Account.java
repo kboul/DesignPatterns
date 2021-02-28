@@ -1,4 +1,4 @@
-package com.company;
+package com.company.essentials;
 
 public class Account {
     private float balance;

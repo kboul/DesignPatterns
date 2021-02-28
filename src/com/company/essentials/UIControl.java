@@ -1,4 +1,4 @@
-package com.company;
+package com.company.essentials;
 
 public abstract class UIControl {
     public void enable() {
